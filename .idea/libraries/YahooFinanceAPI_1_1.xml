@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="YahooFinanceAPI-1.1">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../YahooFinanceAPI-1.1.0" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://$PROJECT_DIR$/../YahooFinanceAPI-1.1.0/doc" />
+    </JAVADOC>
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/../YahooFinanceAPI-1.1.0" recursive="false" />
+  </library>
+</component>
