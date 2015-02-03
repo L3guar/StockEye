@@ -1,6 +1,4 @@
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 
 /**
  * Created by Leguar on 3/02/2015.
@@ -8,13 +6,13 @@ import java.io.IOException;
 public class ReadFile {
     private String path;
 
-    public ReadFile(String file_path) {
-        path = file_path;
-    }
-
-    public String[] OpenFile() throws IOException {
-        FileReader fr = new FileReader(path);
-        BufferedReader textReader = new BufferedReader(fr);
-        return null;
+    public static void main(String[] args) {
+        try {
+            FileWriter fw = new FileWriter("stocks.txt");
+            PrintWriter pw = new PrintWriter(fw);
+            
+        } catch (IOException e) {
+            System.out.println("ERROR");
+        }
     }
 }
